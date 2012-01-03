@@ -16,5 +16,6 @@ node, area {
 }
 
 way[airspace=yes]:closed { color: blue; fill-color: blue; fill-opacity: 0.2; width: 1; dashes: 2, 2; }
-node[obstacle=yes] { color: red; }
-node[navaid=yes] { color: green; }
+node[obstacle=yes] { color: red; radius: 4; }
+node[navaid=yes] { color: green; radius: 4; }
+node[aerodrome=yes] { color: grey; radius: 4; }
