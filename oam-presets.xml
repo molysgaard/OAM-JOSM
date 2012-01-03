@@ -124,12 +124,12 @@ are supplied, then "values" will be treated as "display_values" and translated i
 
 
       <!-- HEIGHT BOUNDS -->
-      <text key="height:lower" description="Lower Height"/>
-      <combo key="height:lower:unit" description="Lower Height Unit" values="ft,fl,m"/>
-      <combo key="height:lower:class" description="Lower Height Class" values="amsl,agl"/>
-      <text key="height:upper" description="Upper Height"/>
-      <combo key="height:upper:unit" description="Upper Height Unit" values="ft,fl,m"/>
-      <combo key="height:upper:class" description="Upper Height Class" values="amsl,agl"/>
+      <text key="height:lower" text="Lower Height" description="Lower Height (number)"/>
+      <combo key="height:lower:unit" text="Lower Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
+      <combo key="height:lower:class" text="Lower Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
+      <text key="height:upper" text="Upper Height" description="Lower Height (number)"/>
+      <combo key="height:upper:unit" text="Upper Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
+      <combo key="height:upper:class" text="Upper Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
     </item>
     <item name="Navaid" icon="presets/way_secondary.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
@@ -150,9 +150,9 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="ref"  text="Reference number" />
 
       <!-- HEIGHT -->
-      <text key="height" description="Height"/>
-      <combo key="height:unit" description="Height Unit" values="ft,fl,m"/>
-      <combo key="height:class" description="Height Class" values="amsl,agl"/>
+      <text key="height" description="Height" description="Height (number)"/>
+      <combo key="height:unit" description="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" description="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
 
       <!-- LIGHTING -->
       <combo key="lighting" values="no,constant,flashing" description="Is and how is this obstacle lighted?"/>
@@ -163,23 +163,23 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <!-- NAMES AND REF -->
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" />
+      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
 
       <!-- AERODROME CODES -->
-      <text key="icao" description="The ICAO code of this aerodrome."/>
-      <text key="iata" description="The IATA code of this aerodrome."/>
-      <text key="ffalid" description="The FFALID of this aerodrome."/>
+      <text key="icao" text="ICAO" description="The ICAO code of this aerodrome."/>
+      <text key="iata" text="IATA" description="The IATA code of this aerodrome."/>
+      <text key="ffalid" text="FFALID" description="The FFALID of this aerodrome."/>
 
       <!-- HEIGHT -->
-      <text key="height" description="Height"/>
-      <combo key="height:unit" description="Height Unit" values="ft,fl,m"/>
-      <combo key="height:class" description="Height Class" values="amsl,agl"/>
+      <text key="height" description="Height" description="Height (number)"/>
+      <combo key="height:unit" description="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" description="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
 
       <!-- COMMUNICATION -->
-      <text key="comm:twr" description="Tower freq." />
-      <text key="comm:atis" description="ATIS freq." />
-      <text key="comm:app" description="Approach freq." />
-      <text key="comm:gnd" description="Ground freq." />
+      <text key="comm:twr" text="Tower freq." description="Tower freq." />
+      <text key="comm:atis" text="ATIS freq." description="ATIS freq." />
+      <text key="comm:app" text="Approach freq." description="Approach freq." />
+      <text key="comm:gnd" text="Ground freq." description="Ground freq." />
     </item>
   </group>
 </presets>
