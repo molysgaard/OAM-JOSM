@@ -137,11 +137,11 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <space />
       <!-- NAVAID SPECIFIC -->
       <key key="navaid" value="yes" />
-      <text key="navaid:dme" description="The DME freq. of this navaid" />
-      <text key="navaid:vor" description="The VOR freq. of this navaid" />
-      <text key="navaid:ndb" description="The NDB freq. of this navaid" />
-      <text key="navaid:tacan" description="The TACAN freq. of this navaid" />
-      <text key="navaid:ils" description="The ILS freq. of this navaid" />
+      <text key="navaid:dme" text="The DME freq. of this navaid" />
+      <text key="navaid:vor" text="The VOR freq. of this navaid" />
+      <text key="navaid:ndb" text="The NDB freq. of this navaid" />
+      <text key="navaid:tacan" text="The TACAN freq. of this navaid" />
+      <text key="navaid:ils" text="The ILS freq. of this navaid" />
     </item>
     <item name="Obstacle" icon="presets/way_secondary.png">
       <!-- NAMES AND REF -->
@@ -150,13 +150,13 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="ref"  text="Reference number" />
 
       <!-- HEIGHT -->
-      <text key="height" description="Height" description="Height (number)"/>
-      <combo key="height:unit" description="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" description="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
 
       <!-- LIGHTING -->
-      <combo key="lighting" values="no,constant,flashing" description="Is and how is this obstacle lighted?"/>
-      <text key="lighting:color" description="Color of ligthing" />
+      <combo key="lighting" values="no,constant,flashing" text="Ligthing" description="Is and how is this obstacle lighted?"/>
+      <text key="lighting:color" text="Color" description="Color of ligthing" />
     </item>
 
     <item name="Aerodrome" icon="presets/way_secondary.png">
@@ -171,9 +171,9 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="ffalid" text="FFALID" description="The FFALID of this aerodrome."/>
 
       <!-- HEIGHT -->
-      <text key="height" description="Height" description="Height (number)"/>
-      <combo key="height:unit" description="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" description="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
 
       <!-- COMMUNICATION -->
       <text key="comm:twr" text="Tower freq." description="Tower freq." />
