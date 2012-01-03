@@ -144,6 +144,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="navaid:ils" text="The ILS freq. of this navaid" />
     </item>
     <item name="Obstacle" icon="presets/way_secondary.png">
+      <key key="obstacle" value="yes" />
       <!-- NAMES AND REF -->
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
@@ -160,6 +161,8 @@ are supplied, then "values" will be treated as "display_values" and translated i
     </item>
 
     <item name="Aerodrome" icon="presets/way_secondary.png">
+      <key key="aerodrome" value="yes" />
+
       <!-- NAMES AND REF -->
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
