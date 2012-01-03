@@ -16,6 +16,6 @@ node, area {
 }
 
 way[airspace=yes]:closed { color: blue; fill-color: blue; fill-opacity: 0.2; width: 1; dashes: 2, 2; }
-node[obstacle=yes] { color: red; symbol-shape: circle; symbol-size: 20; }
-node[navaid=yes] { color: green; symbol-shape: circle; symbol-size: 20; }
-node[aerodrome=yes] { color: grey; symbol-shape: circle; symbol-size: 20; }
+node[obstacle=yes] { symbol-fill-color: red; symbol-shape: circle; symbol-size: 20; }
+node[navaid=yes] { symbol-fill-color: green; symbol-shape: circle; symbol-size: 20; }
+node[aerodrome=yes] { symbol-fill-color: grey; symbol-shape: circle; symbol-size: 20; }
