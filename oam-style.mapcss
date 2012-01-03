@@ -1,0 +1,20 @@
+/*
+  OAM core stylesheet
+*/
+
+meta {
+    title: "OAM";
+    icon: "dialogs/mappaint/pl2_small.png";
+}
+
+canvas {
+    background-color: #ffffea;
+}
+
+node, area {
+    text-color: black;
+}
+
+way[airspace=yes]:closed { color: blue; fill-color: blue; fill-opacity: 0.2; width: 1; dashes: 2, 2; }
+node[obstacle=yes] { color: red; }
+node[navaid=yes] { color: green; }
