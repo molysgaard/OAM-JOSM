@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
     author="Morten Olsen Lysgard"
-    description="Tags for the Open Aviation Map project. http://openaviationmap.org"
-    shortdescription="Aviation tags"
+    description="Tags for the Open Aviation Map project."
+    shortdescription="OpenAviationMap"
+    link="http://openaviationmap.org"
     version="0.0.1">
 <!--
     Pics have been derived from

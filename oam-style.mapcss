@@ -3,7 +3,13 @@
 */
 
 meta {
-    title: "OAM";
+    author: "Morten Olsen Lysgaard";
+    title: "OpenAviationMap styling of aviation related data.";
+    shorttitle: "OpenAviationMap";
+    description: "OpenAviationMap styling of aviation related data.";
+    shortdescription: "OpenAviationMap";
+    link: "http://openaviationmap.org";
+    version: "0.0.1";
     icon: "dialogs/mappaint/pl2_small.png";
 }
 
