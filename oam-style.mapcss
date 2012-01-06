@@ -23,6 +23,6 @@ node, area {
 
 way[airspace=yes]:closed { color: blue; fill-color: blue; fill-opacity: 0.2; width: 1; dashes: 2, 2; }
 
-node[obstacle=yes] { icon-image:"https://raw.github.com/molysgaard/OAM-Icons/master/obstacle.svg"; icon-width:32; icon-height:32; }
-node[navaid=yes] { icon-image:"https://raw.github.com/molysgaard/OAM-Icons/master/navaid.svg"; icon-width:32; icon-height:32; }
-node[aerodrome=yes] { icon-image:"https://raw.github.com/molysgaard/OAM-Icons/master/aerodrome.svg"; icon-width:32; icon-height:32; }
+node[obstacle=yes] { icon-image:"https://raw.github.com/molysgaard/OAM-Icons/master/renders/32/obstacle.png"; icon-width:32; icon-height:32; }
+node[navaid=yes] { icon-image:"https://raw.github.com/molysgaard/OAM-Icons/master/renders/32/navaid.png"; icon-width:32; icon-height:32; }
+node[aerodrome=yes] { icon-image:"https://raw.github.com/molysgaard/OAM-Icons/master/renders/32/aerodrome.png"; icon-width:32; icon-height:32; }
