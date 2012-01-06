@@ -136,6 +136,11 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <label text="Edit Navaid" />
       <space />
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" />
+
       <!-- NAVAID SPECIFIC -->
       <key key="navaid" value="yes" />
       <text key="navaid:dme" text="The DME freq. of this navaid" />
@@ -145,6 +150,9 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="navaid:ils" text="The ILS freq. of this navaid" />
     </item>
     <item name="Obstacle" icon="presets/way_secondary.png">
+      <label text="Edit Obstacle" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
+      <space />
       <key key="obstacle" value="yes" />
       <!-- NAMES AND REF -->
       <text key="name" text="Name" />
@@ -163,6 +171,9 @@ are supplied, then "values" will be treated as "display_values" and translated i
 
     <item name="Aerodrome" icon="presets/way_secondary.png">
       <key key="aerodrome" value="yes" />
+      <label text="Edit Aerodrome" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
+      <space />
 
       <!-- NAMES AND REF -->
       <text key="name" text="Name" />
