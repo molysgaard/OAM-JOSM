@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
     author="Morten Olsen Lysgard"
-    description="Tags for the Open Aviation Map project."
+    description="Tags for the Open Aviation Map project. IMPORTANT: Do not use this preset for openSTREETmap. It's strictly for openAVIATIONmap. OSM does not want airspaces in their databases."
     shortdescription="OpenAviationMap"
     link="http://openaviationmap.org"
     version="0.0.1">
