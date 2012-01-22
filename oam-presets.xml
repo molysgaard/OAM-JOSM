@@ -169,7 +169,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="lighting:color" text="Color" description="Color of ligthing" />
     </item>
 
-    <item name="Aerodrome" icon="presets/way_secondary.png">
+    <item name="Aerodrome" icon="presets/way_secondary.png" type="relation,node">
       <key key="aerodrome" value="yes" />
       <label text="Edit Aerodrome" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
