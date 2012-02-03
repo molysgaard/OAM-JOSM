@@ -4,7 +4,7 @@
     description="Tags for the Open Aviation Map project. IMPORTANT: Do not use this preset for openSTREETmap. It's strictly for openAVIATIONmap. OSM does not want airspaces in their databases."
     shortdescription="OpenAviationMap"
     link="http://openaviationmap.org"
-    version="0.0.1">
+    version="0.0.2">
 <!--
     Pics have been derived from
     http://de.wikipedia.org/wiki/Bildtafel_der_Verkehrszeichen_in_Deutschland (german street sign SVGs)
@@ -117,6 +117,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
       <text key="ref"  text="Reference number" />
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
 
       <!-- AIRSPACE SPECIFIC -->
       <key key="airspace" value="yes" />
@@ -140,6 +141,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
       <text key="ref"  text="Reference number" />
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
 
       <!-- NAVAID SPECIFIC -->
       <key key="navaid" value="yes" />
@@ -158,6 +160,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
       <text key="ref"  text="Reference number" />
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
 
       <!-- HEIGHT -->
       <text key="height" text="Height" description="Height (number)"/>
@@ -179,6 +182,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="name" text="Name" />
       <text key="longname" text="Long name" />
       <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
 
       <!-- AERODROME CODES -->
       <text key="icao" text="ICAO" description="The ICAO code of this aerodrome."/>
@@ -190,11 +194,37 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
       <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
 
+      <!-- RUNWAY -->
+      <text key="runway:designator" text="Designator (Eg 12-30)" description="The directions the runway points rounded off to the 10th decimal degree."/>
+      <text key="runway:length" text="Length (meters)" description="The usable runway length, in metres."/>
+      <text key="runway:surface" text="Surface" description="The surface of the runway."/>
+
       <!-- COMMUNICATION -->
       <text key="comm:twr" text="Tower freq." description="Tower freq." />
       <text key="comm:atis" text="ATIS freq." description="ATIS freq." />
       <text key="comm:app" text="Approach freq." description="Approach freq." />
       <text key="comm:gnd" text="Ground freq." description="Ground freq." />
+    </item>
+
+    <item name="VFR Reporting Point" icon="presets/way_secondary.png">
+      <key key="vfrreportingpoint" value="yes" />
+      <label text="Edit VFR Reporting Point" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
+      <space />
+
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- HEIGHT -->
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+
+      <!-- COMMUNICATION -->
+      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
     </item>
   </group>
 </presets>
