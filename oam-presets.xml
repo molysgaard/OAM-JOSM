@@ -122,7 +122,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <!-- AIRSPACE SPECIFIC -->
       <key key="airspace" value="yes" />
       <combo key="airspace:class" text="Airspace Class" values="A,B,C,D,E,F,G" />
-      <combo key="airspace:type" text="Airspace Type" values="TMA,CTR,FIR" />
+      <combo key="airspace:type" text="Airspace Type" values="TMA,CTR,FIR,ristricted,danger,ATZ,TFR" />
 
 
       <!-- HEIGHT BOUNDS -->
