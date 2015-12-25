@@ -12,7 +12,7 @@
     http://www.kde.org
     http://openclipart.org/media/view/media/clip_art
     http://www.sjjb.co.uk/mapicons/ (meanwhile in osm svn)
--->
+-->pre
 <!--
 item:
   name: the text to display
@@ -108,8 +108,8 @@ In JOSM internally all "name", "text" and "display_values" are translated when
 no specific translation has been given in XML file. When no "display_values"
 are supplied, then "values" will be treated as "display_values" and translated instead.
 -->
-  <group name="OAM" icon="presets/way_secondary.png">
-    <item name="Airspace" icon="presets/motorway.png" type="closedway">
+  <group name="OAM" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Airspace" icon="styles/standard/transport/way/way_motorway.svg" type="closedway">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Airspace" />
       <label text="Edit Airspace" />
       <space />
@@ -133,7 +133,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <combo key="height:upper:unit" text="Upper Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
       <combo key="height:upper:class" text="Upper Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
     </item>
-    <item name="Navaid" icon="presets/way_secondary.png">
+    <item name="Navaid" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <label text="Edit Navaid" />
       <space />
@@ -151,7 +151,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="navaid:tacan" text="The TACAN freq. of this navaid" />
       <text key="navaid:ils" text="The ILS freq. of this navaid" />
     </item>
-    <item name="Obstacle" icon="presets/way_secondary.png">
+    <item name="Obstacle" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Obstacle" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
       <space />
@@ -172,7 +172,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="lighting:color" text="Color" description="Color of ligthing" />
     </item>
 
-    <item name="Aerodrome" icon="presets/way_secondary.png" type="relation,node">
+    <item name="Aerodrome" icon="styles/standard/transport/way/way_secondary.svg" type="relation,node">
       <key key="aerodrome" value="yes" />
       <label text="Edit Aerodrome" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
@@ -206,7 +206,7 @@ are supplied, then "values" will be treated as "display_values" and translated i
       <text key="comm:gnd" text="Ground freq." description="Ground freq." />
     </item>
 
-    <item name="VFR Reporting Point" icon="presets/way_secondary.png">
+    <item name="VFR Reporting Point" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="vfrreportingpoint" value="yes" />
       <label text="Edit VFR Reporting Point" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
