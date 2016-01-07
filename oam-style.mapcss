@@ -14,7 +14,7 @@ meta {
 }
 
 canvas {
-    background-color: #ffffea;
+    fill-color: #ffffea;
 }
 
 node, area {
