@@ -23,19 +23,19 @@ node, area {
 
 way[airspace=yes]:closed { color: blue; fill-color: blue; fill-opacity: 0.2; width: 1; dashes: 2, 2; }
 
-node[obstacle=yes] { icon-image:"http://openaviationmap.org/icons/obstacle.svg"; icon-width:32; icon-height:32; }
+node[obstacle=yes] { icon-image:"https://openaviationmap.googlecode.com/svn/trunk/rendering/obstacle.svg"; icon-width:32; icon-height:32; }
 
-node[navaid=yes] { icon-image:"http://openaviationmap.org/icons/navaid.svg"; icon-width:32; icon-height:32; }
+node[navaid=yes] { icon-image:"https://openaviationmap.googlecode.com/svn/trunk/rendering/navaid_compass_rose.svg"; icon-width:32; icon-height:32; }
 
 
-node[navaid=yes][navaid:dme] { icon-image:"http://openaviationmap.org/icons/dme.svg"; icon-width:32; icon-height:32; }
-node[navaid=yes][navaid:ndb] { icon-image:"http://openaviationmap.org/icons/ndb.svg"; icon-width:32; icon-height:32; }
-node[navaid=yes][navaid:tacan] { icon-image:"http://openaviationmap.org/icons/tacan.svg"; icon-width:32; icon-height:32; }
+/* node[navaid=yes][navaid:dme] { icon-image:"http://openaviationmap.org/icons/dme.svg"; icon-width:32; icon-height:32; } */
+node[navaid=yes][navaid:ndb] { icon-image:"https://openaviationmap.googlecode.com/svn/trunk/rendering/navaid_NDB.svg"; icon-width:32; icon-height:32; }
+/* node[navaid=yes][navaid:tacan] { icon-image:"http://openaviationmap.org/icons/tacan.svg"; icon-width:32; icon-height:32; } */
 
-node[navaid=yes][navaid:vor][!navaid:dme][!navaid:tacan] { icon-image:"http://openaviationmap.org/icons/vor.svg"; icon-width:32; icon-height:32; }
-node[navaid=yes][navaid:vor][navaid:dme] { icon-image:"http://openaviationmap.org/icons/vor_dme.svg"; icon-width:32; icon-height:32; }
-node[navaid=yes][navaid:vor][navaid:tacan] { icon-image:"http://openaviationmap.org/icons/vor_tacan.svg"; icon-width:32; icon-height:32; }
+node[navaid=yes][navaid:vor][!navaid:dme][!navaid:tacan] { icon-image:"https://openaviationmap.googlecode.com/svn/trunk/rendering/navaid_VOR.svg"; icon-width:32; icon-height:32; }
+node[navaid=yes][navaid:vor][navaid:dme] { icon-image:"https://openaviationmap.googlecode.com/svn/trunk/rendering/navaid_VORDME.svg"; icon-width:32; icon-height:32; }
+node[navaid=yes][navaid:vor][navaid:tacan] { icon-image:"https://openaviationmap.googlecode.com/svn/trunk/rendering/navaid_VORTAC.svg"; icon-width:32; icon-height:32; }
 
-node[aerodrome=yes] { icon-image:"http://openaviationmap.org/icons/aerodrome.svg"; icon-width:32; icon-height:32; }
+/* node[aerodrome=yes] { icon-image:"http://openaviationmap.org/icons/aerodrome.svg"; icon-width:32; icon-height:32; } */
 
-node[vfrreportingpoint=yes] { icon-image:"http://openaviationmap.org/icons/vfrreportingpoint.svg"; icon-width:32; icon-height:32; }
+/* node[vfrreportingpoint=yes] { icon-image:"http://openaviationmap.org/icons/vfrreportingpoint.svg"; icon-width:32; icon-height:32; } */
